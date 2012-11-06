@@ -221,5 +221,17 @@ img {
 	font-weight: normal;
 }
 
+.sponsors {
+	background: #ffffff;
+	margin-top: 15px; 
+	margin-bottom: 15px; 
+	margin-right: auto;
+	margin-left: auto;
+	width: 97%;
+}
+
+.logo {
+	border: 3px solid black;
+}
 
 </pre></body></html>
