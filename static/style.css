@@ -1,6 +1,4 @@
-
-<!-- saved from url=(0040)http://www.raid2012.org/static/style.css -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"></head><body><pre style="word-wrap: break-word; white-space: pre-wrap;">body {
+body {
 	background: #474539;
 	font-family: helvetica, arial;
 	color: #000;
@@ -107,17 +105,14 @@ img {
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
-	/*background: #999; /* for non-css3 browsers */
-	/*background: -webkit-gradient(linear, left top, left bottom, from(#a92c10), to(#851f08)); /* for webkit browsers */
-	/*background: -moz-linear-gradient(top,  #af3e12,  #af3e12); /* for firefox 3.6+ */ 
-	background: #af3e12; /*non-CSS3 browsers will use this*/
-    background: -webkit-gradient(linear, 0 0, 0 100%, from(#af3e12) to( #af3e12)); /*old webkit*/
-    background: -webkit-linear-gradient(#af3e12,  #af3e12); /*new webkit*/
-    background: -moz-linear-gradient(#af3e12,  #af3e12); /*gecko*/
-    background: -ms-linear-gradient(#af3e12,  #af3e12); /*IE10 preview*/
-    background: -o-linear-gradient(#af3e12,  #af3e12); /*opera 11.10+*/
-    background: linear-gradient(#af3e12,  #af3e12); /*future CSS3 browsers*/
-    -pie-background: linear-gradient(#af3e12,  #af3e12); /*PIE*/
+	background: #851f08; /*non-CSS3 browsers will use this*/
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#a92c10) to( #851f08)); /*old webkit*/
+	background: -webkit-linear-gradient(#a92c10,  #851f08); /*new webkit*/
+	background: -moz-linear-gradient(#a92c10,  #851f08); /*gecko*/
+	background: -ms-linear-gradient(#a92c10,  #851f08); /*IE10 preview*/
+	background: -o-linear-gradient(#a92c10,  #851f08); /*opera 11.10+*/
+	background: linear-gradient(#a92c10,  #851f08); /*future CSS3 browsers*/
+	-pie-background: linear-gradient(#a92c10,  #851f08); /*PIE*/
 	behavior: url(static/PIE.htc);
 }
 
@@ -233,5 +228,3 @@ img {
 .logo {
 	border: 3px solid black;
 }
-
-</pre></body></html>
