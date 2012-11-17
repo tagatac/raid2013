@@ -12,7 +12,7 @@
 	margin-right: auto;
 	margin-top: 50px;
 	margin-bottom: 0px;
-	background: #b6a682;
+	background: #d2d795;
 	padding: 0px;
 }
 
@@ -85,7 +85,7 @@ img {
 	margin: 3px;
 	height: 25px;
 	line-height: 25px;
-	color: #ffffff;
+	color: #FFFFFF;
 	font-weight: bold;
 	font-size: 13px;
 	text-align: center;
@@ -93,7 +93,7 @@ img {
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
 	behavior: url(static/PIE.htc);
-	background: #495c65;
+	background: #526612;
 }
 
 .longbar {
@@ -109,15 +109,15 @@ img {
 	border-radius: 5px;
 	/*background: #999; /* for non-css3 browsers */
 	/*background: -webkit-gradient(linear, left top, left bottom, from(#a92c10), to(#851f08)); /* for webkit browsers */
-	/*background: -moz-linear-gradient(top,  #a92c10,  #851f08); /* for firefox 3.6+ */ 
-	background: #851f08; /*non-CSS3 browsers will use this*/
-    background: -webkit-gradient(linear, 0 0, 0 100%, from(#a92c10) to( #851f08)); /*old webkit*/
-    background: -webkit-linear-gradient(#a92c10,  #851f08); /*new webkit*/
-    background: -moz-linear-gradient(#a92c10,  #851f08); /*gecko*/
-    background: -ms-linear-gradient(#a92c10,  #851f08); /*IE10 preview*/
-    background: -o-linear-gradient(#a92c10,  #851f08); /*opera 11.10+*/
-    background: linear-gradient(#a92c10,  #851f08); /*future CSS3 browsers*/
-    -pie-background: linear-gradient(#a92c10,  #851f08); /*PIE*/
+	/*background: -moz-linear-gradient(top,  #af3e12,  #af3e12); /* for firefox 3.6+ */ 
+	background: #af3e12; /*non-CSS3 browsers will use this*/
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#af3e12) to( #af3e12)); /*old webkit*/
+    background: -webkit-linear-gradient(#af3e12,  #af3e12); /*new webkit*/
+    background: -moz-linear-gradient(#af3e12,  #af3e12); /*gecko*/
+    background: -ms-linear-gradient(#af3e12,  #af3e12); /*IE10 preview*/
+    background: -o-linear-gradient(#af3e12,  #af3e12); /*opera 11.10+*/
+    background: linear-gradient(#af3e12,  #af3e12); /*future CSS3 browsers*/
+    -pie-background: linear-gradient(#af3e12,  #af3e12); /*PIE*/
 	behavior: url(static/PIE.htc);
 }
 
