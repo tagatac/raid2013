@@ -1,5 +1,5 @@
 body {
-	background: #474539;
+	background: #74c2ce;
 	font-family: helvetica, arial;
 	color: #000;
 }
@@ -10,7 +10,7 @@ body {
 	margin-right: auto;
 	margin-top: 50px;
 	margin-bottom: 0px;
-	background: #d2d795;
+	background: #fffa98;
 	padding: 0px;
 }
 
@@ -91,7 +91,7 @@ img {
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
 	behavior: url(static/PIE.htc);
-	background: #526612;
+	background: #0a9136;
 }
 
 .longbar {
@@ -105,14 +105,14 @@ img {
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
-	background: #851f08; /*non-CSS3 browsers will use this*/
-	background: -webkit-gradient(linear, 0 0, 0 100%, from(#a92c10) to( #851f08)); /*old webkit*/
-	background: -webkit-linear-gradient(#a92c10,  #851f08); /*new webkit*/
-	background: -moz-linear-gradient(#a92c10,  #851f08); /*gecko*/
-	background: -ms-linear-gradient(#a92c10,  #851f08); /*IE10 preview*/
-	background: -o-linear-gradient(#a92c10,  #851f08); /*opera 11.10+*/
-	background: linear-gradient(#a92c10,  #851f08); /*future CSS3 browsers*/
-	-pie-background: linear-gradient(#a92c10,  #851f08); /*PIE*/
+	background: #f0a53f; /*non-CSS3 browsers will use this*/
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#a92c10) to( #f0a53f)); /*old webkit*/
+	background: -webkit-linear-gradient(#ff9900,  #f0a53f); /*new webkit*/
+	background: -moz-linear-gradient(#ff9900,  #f0a53f); /*gecko*/
+	background: -ms-linear-gradient(#ff9900,  #f0a53f); /*IE10 preview*/
+	background: -o-linear-gradient(#ff9900,  #f0a53f); /*opera 11.10+*/
+	background: linear-gradient(#ff9900,  #f0a53f); /*future CSS3 browsers*/
+	-pie-background: linear-gradient(#ff9900,  #f0a53f); /*PIE*/
 	behavior: url(static/PIE.htc);
 }
 
