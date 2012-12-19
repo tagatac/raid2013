@@ -209,6 +209,19 @@ img {
 	font-size: 13px; 
 }
 
+table.rates {
+	font-size: 12px;
+	border-collapse: collapse;
+	border: 1px solid black;
+	border-spacing: 1px;
+}
+
+table.rates td, th {
+	border: 1px solid black;
+	padding: 8px;
+	text-align: center;
+}
+	
 .location_side {
 	float: right; 
 	padding-right: 10px; 
