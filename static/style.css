@@ -230,7 +230,9 @@ table.rates td, th {
 }
 
 .sponsors {
-	background: #ffffff;
+	/*background: #ffffff;*/
+	font-size: 10pt;
+	text-align: center;
 	margin-top: 15px; 
 	margin-bottom: 15px; 
 	margin-right: auto;
