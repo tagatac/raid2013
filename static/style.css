@@ -90,7 +90,6 @@ img {
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
-	behavior: url(static/PIE.htc);
 	background: #0a9136;
 }
 
@@ -113,7 +112,6 @@ img {
 	background: -o-linear-gradient(#ff9900,  #f0a53f); /*opera 11.10+*/
 	background: linear-gradient(#ff9900,  #f0a53f); /*future CSS3 browsers*/
 	-pie-background: linear-gradient(#ff9900,  #f0a53f); /*PIE*/
-	behavior: url(static/PIE.htc);
 }
 
 /* MUST BE USED TOGETHER WITH LONG BAR */
@@ -146,7 +144,6 @@ img {
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
-	behavior: url(static/PIE.htc);
 }
 
 .tinyaddition_program {
@@ -164,7 +161,6 @@ img {
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
-	behavior: url(static/PIE.htc);
 }
 
 .tinyaddition_program_schair {
@@ -182,7 +178,6 @@ img {
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
-	behavior: url(static/PIE.htc);
 }
 
 
