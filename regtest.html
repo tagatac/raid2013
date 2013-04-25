@@ -52,20 +52,30 @@
 					Registration
 				</div>
 				<p class="content_paragraph">				<p>				Registration includes admission to all RAID 2013 sessions, proceedings, and selected meals throughout the event.				</p>
-				<table border="1">					<tr>						<th>Registration Type</th>						<th>Before September 15, 2013, 11:59 EST</th>						<th>Starting September 16, 2013</th>					</tr>					<tr>						<td>Professional</td>						<td>$750</td>						<td>$800</td>					</tr>					<tr>						<td>Speaker</td>						<td>$700</td>						<td>$700</td>					</tr>					<tr>						<td>Student *</td>						<td>$500</td>						<td>$600</td>					</tr>				</table>				<p>				*-Student fees only available upon verification of student status. 				Please send a copy of your transcript indicating that you are a full-time student to <a href="mailto:raid_registration@lists.cs.columbia.edu?Subject=Student%20Registration" class="glink">raid_registration@lists.cs.columbia.edu</a>				</p>								<h3>				Cancellation Policy				</h3>				<p>				A refund minus a 10% handling fee will be given to registrants who are unable to attend the conference due to medical emergency. A substitute participant will be accepted at any time with written notification.				</p>								<h3>				Privacy Policy				</h3>				<p>				Any personal information you provide to us during registration, including your name, address, telephone number and email address, will not be released, sold, or rented to any entities. Your name and institution as specified on your registration form will be used for your conference badge.				</p>
-				</p>
-				<br />
-				
-				<form
-action=https://www.myvirtualmerchant.com/VirtualMerchant/process.do method="POST">
-<input type="hidden" name="ssl_merchant_id" value="530206">
+								<form action=https://www.myvirtualmerchant.com/VirtualMerchant/process.do method="POST">
+				<table border="1">					<tr>
+						<th></th>						<th>Registration Type</th>						<th>Before September 15, 2013, 11:59 EST</th>						<th>Starting September 16, 2013</th>					</tr>					<tr>
+						<td><input type="Radio" name="ssl_amount" value="750" checked></td>						<td>Professional</td>						<td>$750</td>						<td>$800</td>					</tr>					<tr>
+						<td><input type="Radio" name="ssl_amount" value="700"></td>
+						<td>Speaker</td>						<td>$700</td>						<td>$700</td>					</tr>					<tr>						<td><input type="Radio" name="ssl_amount" value="500"></td>
+						<td>Student *</td>						<td>$500</td>						<td>$600</td>					</tr>
+					<tr>
+						<td colspan="4" align="center">
+									<input type="hidden" name="ssl_merchant_id" value="530206">
 <input type="hidden" name="ssl_user_id" value="RAID13">
 <input type="hidden" name="ssl_pin" value="B4E6Q8">
 <input type="hidden" name="ssl_transaction_type" value="ccsale">
 <input type="hidden" name="ssl_show_form" value="true">
-<input type="hidden" name="ssl_amount" value="14.95">
-<input type="submit" value="Click to Order">
+
+<input type="submit" value="Register">
 </form>
+	</td>
+	</tr>				</table>				<p>				*-Student fees only available upon verification of student status. 				Please send a copy of your transcript indicating that you are a full-time student to <a href="mailto:raid_registration@lists.cs.columbia.edu?Subject=Student%20Registration" class="glink">raid_registration@lists.cs.columbia.edu</a>				</p>
+				<h3>				Cancellation Policy				</h3>				<p>				A refund minus a 10% handling fee will be given to registrants who are unable to attend the conference due to medical emergency. A substitute participant will be accepted at any time with written notification.				</p>								<h3>				Privacy Policy				</h3>				<p>				Any personal information you provide to us during registration, including your name, address, telephone number and email address, will not be released, sold, or rented to any entities. Your name and institution as specified on your registration form will be used for your conference badge.				</p>
+				</p>
+				<br />
+				
+
 
 
 				<!-- TODO: replace this page with a link to registration -->
