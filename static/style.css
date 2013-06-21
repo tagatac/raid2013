@@ -36,13 +36,15 @@ a:visited {
 .glink:link {
 	color: #495c65;
 	font-weight: bold;
-	text-decoration:underline;
+	text-decoration: underline;
+	white-space: nowrap;
 }
 
 .glink:visited {
 	color: #495c65;
 	font-weight: bold;
-	text-decoration:underline;
+	text-decoration: underline;
+	white-space: nowrap;
 }
 
 .glink:hover {
