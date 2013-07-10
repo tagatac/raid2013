@@ -3,8 +3,6 @@
 # This file is meant to be symbolically linked to
 # /import/html/raid2013/.git/hooks to re-apply permissions after a pull
 
-# change directory to the root folder
-cd ../..
 # most files: rw access for the owner and the 'raid2013' group,
 # r access for others (web access)
 chmod -R 664 *
