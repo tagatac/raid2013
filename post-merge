@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# This file is meant to be symbolically linked to
+# This file is meant to be copied to
 # /import/html/raid2013/.git/hooks to re-apply permissions after a pull
 
 # make folders executable but unreadable for others
