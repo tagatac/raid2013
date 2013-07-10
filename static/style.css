@@ -1,0 +1,241 @@
+body {
+	background: #74c2ce;
+	font-family: helvetica, arial;
+	color: #000;
+}
+
+.main {
+	width: 874px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 0px;
+	background: #fffa98;
+	padding: 0px;
+}
+
+.test {
+	/*background: #a92c10;*/
+	font-weight: normal;
+}
+
+a:link {
+	color: #fff;
+	text-decoration:underline
+}
+
+a:hover {
+	text-decoration:none;
+}
+
+a:visited {
+	color: #fff;
+	text-decoration:underline
+}
+
+.glink:link {
+	color: #495c65;
+	font-weight: bold;
+	text-decoration: underline;
+	white-space: nowrap;
+}
+
+.glink:visited {
+	color: #495c65;
+	font-weight: bold;
+	text-decoration: underline;
+	white-space: nowrap;
+}
+
+.glink:hover {
+	text-decoration:none;
+}
+
+
+img {
+	border: none;
+}
+
+.container {
+	margin-top: 15px; 
+	margin-bottom: 15px; 
+	margin-right: auto;
+	margin-left: auto;
+	width: 97%;
+}
+
+.content_paragraph {
+	margin-left: auto; 
+	margin-right: auto; 
+	width: 90%; 
+	font-size: 13px;
+}
+
+.list_paragraph {
+	margin-left: auto; 
+	margin-right: auto; 
+	width: 90%; 
+	font-size: 13px;
+}
+
+.cell {
+	float: left; 
+	width: 19.0%; 
+	border: 1px solid #b6a682;
+	margin: 3px;
+	height: 25px;
+	line-height: 25px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 13px;
+	text-align: center;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	background: #0a9136;
+}
+
+.longbar {
+	height: 45px;
+	padding-left: 10px;
+	line-height: 45px;
+	font-weight: bold;
+	font-size: 16px;
+	color: white;
+	border: 0px solid black;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	background: #f0a53f; /*non-CSS3 browsers will use this*/
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#a92c10) to( #f0a53f)); /*old webkit*/
+	background: -webkit-linear-gradient(#ff9900,  #f0a53f); /*new webkit*/
+	background: -moz-linear-gradient(#ff9900,  #f0a53f); /*gecko*/
+	background: -ms-linear-gradient(#ff9900,  #f0a53f); /*IE10 preview*/
+	background: -o-linear-gradient(#ff9900,  #f0a53f); /*opera 11.10+*/
+	background: linear-gradient(#ff9900,  #f0a53f); /*future CSS3 browsers*/
+	-pie-background: linear-gradient(#ff9900,  #f0a53f); /*PIE*/
+}
+
+/* MUST BE USED TOGETHER WITH LONG BAR */
+.thinaddition {
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	background: #495c65; /*non-CSS3 browsers will use this*/
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#495c65) to( #2c353e)); /*old webkit*/
+    background: -webkit-linear-gradient(#495c65,  #2c353e); /*new webkit*/
+    background: -moz-linear-gradient(#495c65,  #2c353e); /*gecko*/
+    background: -ms-linear-gradient(#495c65,  #2c353e); /*IE10 preview*/
+    background: -o-linear-gradient(#495c65,  #2c353e); /*opera 11.10+*/
+    background: linear-gradient(#495c65,  #2c353e); /*future CSS3 browsers*/
+    -pie-background: linear-gradient(#495c65,  #2c353e); /*PIE*/
+}
+
+.tinyaddition {
+	width: 50%;
+	height: 25px;
+	line-height: 25px;
+	font-size: 12px;
+	
+	background: #474539; /*non-CSS3 browsers will use this*/
+
+	padding-left: 10px;
+	font-weight: bold;
+	color: white;
+	border: 0px solid black;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.tinyaddition_program {
+	/*width: 70%;*/
+	height: 25px;
+	line-height: 25px;
+	font-size: 12px;
+	
+	background: #474539; /*non-CSS3 browsers will use this*/
+
+	padding-left: 10px;
+	font-weight: bold;
+	color: white;
+	border: 0px solid black;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.tinyaddition_program_schair {
+	width: 70%;
+	height: 25px;
+	line-height: 25px;
+	font-size: 14px;
+	
+	font-style: italic; 
+
+	padding-left: 10px;
+	font-weight: bold;
+	color: black;
+	border: 0px solid black;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+
+.committee_leftcell {
+	width: 25%; 
+	font-weight: bold;
+}
+
+.cfp_rightcell {
+	color: #a92c10;
+	font-weight: bold;
+}
+
+.comittee_table {
+	margin-left: auto; 
+	margin-right: auto; 
+	width: 90%; 
+	font-size: 13px; 
+}
+
+.time_table {
+	margin-left: auto; 
+	margin-right: auto;
+	font-size: 13px; 
+}
+
+table.rates {
+	font-size: 12px;
+	border-collapse: collapse;
+	border: 1px solid black;
+	border-spacing: 1px;
+}
+
+table.rates td, th {
+	border: 1px solid black;
+	padding: 8px;
+	text-align: center;
+}
+	
+.location_side {
+	float: right; 
+	padding-right: 10px; 
+	font-style: italic; 
+	font-weight: normal;
+}
+
+.sponsors {
+	font-size: 10pt;
+	text-align: center;
+	margin-top: 15px; 
+	margin-bottom: 15px; 
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+}
+
+.logo {
+	border: 3px solid black;
+}
