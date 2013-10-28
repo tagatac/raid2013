@@ -237,3 +237,7 @@ table.rates td, th {
 .logo {
 	border: 3px solid black;
 }
+
+figure {
+	display: inline-block;
+}
